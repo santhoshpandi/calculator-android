@@ -5,6 +5,7 @@ It is a basic simple calculator app to perform arithmetic operations.
 //output screenshot
 
 
-<img width="192" alt="image" src="https://github.com/santhoshpandi/calculator-android/assets/109999710/8d815e1b-bfdf-43df-8cc9-ec5fb0760a80">
+![image](https://github.com/santhoshpandi/calculator-android/assets/109999710/10a0e810-1ea0-44cb-bd43-09278afa64e9)
+
 
 
