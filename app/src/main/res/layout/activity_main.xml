@@ -22,6 +22,7 @@
             android:id="@+id/textView"
             android:layout_width="388dp"
             android:layout_height="85dp"
+            android:scrollbars="vertical"
             android:textSize="23dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
