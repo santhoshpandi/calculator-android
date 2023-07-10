@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -197,11 +198,13 @@ TextView t;
                 if(!hist.isEmpty())
                 {
                     temp=temp+hist.pop();
+                    t.setText(temp);
                 }
                 while(!hist.isEmpty())
                 {
                     temp=temp+"\r\n\r\n"+hist.pop();
                     t.setText(temp);
+                    t.setMovementMethod(new ScrollingMovementMethod());
                 }
             }
         });
@@ -259,6 +262,7 @@ TextView t;
                     }
                     hist.push(res+" = "+String.valueOf(sum));
                     t.setText(res+"\r\n\r\n= "+String.valueOf(sum));
+                    t.setMovementMethod(new ScrollingMovementMethod());
 
                     res=String.valueOf(sum);
                     sum=0;
